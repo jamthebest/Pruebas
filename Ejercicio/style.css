@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font: 100% Georgia, serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+#contenedor {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#contenido {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+#cuadro {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 0 0px;
+  background-color: blue;
+}
+
+
+.cont {
+  display: table;
+  height: 50%;
+  width: 50%;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.cuadrado {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+.conte2{
+	position: relative;
+	vertical-align: bottom;
+}
+
+.conte3{
+	position: relative;
+	vertical-align: top;
+}
+
+#contenedor3 {
+	float: right;
+	vertical-align: top;
+}
+
+#cuadro2 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+  background-color: blue;
+}
+
+#cuadro3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: red;
+}

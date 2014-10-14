@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>El primer script</title>
+	 
+	<script type="text/javascript" src="Script.js"></script>
+</head>
+ 
+<body>
+	<noscript>
+		Esta página <strong>requiere</strong> el uso de JavaScript y parece que está desactivado
+	</noscript>
+	<p id="p">Esta página contiene el primer script</p>
+	<input type="text" id="text">
+	<label id="texterror"></label>
+	<div>
+	// Sólo números
+	<input type="text" id="texto" onkeypress="return permite(event, 'num')" />
+	 
+	// Sólo letras
+	<input type="text" id="texto" onkeypress="return permite(event, 'car')" />
+	 
+	// Sólo letras o números
+	<input type="text" id="texto" onkeypress="return permite(event, 'num_car')" />
+	</div>
+	<div id="reloj" />
+
+</body>
+</html>
