@@ -41,9 +41,9 @@ function jam (elEvento) {
     	if (this.value.length < 5) {
     		this.style.borderColor = 'red';
       	this.style.color = 'red';
-      	document.getElementById("texterror").innerHTML = "Cadena muy pequeña";
+      	document.getElementById("texterror").value = "Cadena muy pequeña";
     	}else{
-    		document.getElementById("texterror").innerHTML = "";
+    		document.getElementById("texterror").value = "";
     		this.style.removeProperty('color');
     		this.style.removeProperty('border-color');
     	}
